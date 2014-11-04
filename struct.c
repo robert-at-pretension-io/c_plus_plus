@@ -11,7 +11,7 @@ v.element = new double[s];
 v.size = s;
 }
 
-main(){
+int main(){
 
 cout << "What size would you like to make the vector?\n";
 int size;

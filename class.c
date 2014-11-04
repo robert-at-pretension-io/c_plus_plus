@@ -11,7 +11,7 @@ double* element; //pointer to the elements
 int sz; //the number of elements
 };
 
-main(){
+int main(){
 Vector v(6);
 cout << "The size of the vector v is: " <<  v.size() << "\n";
 return 0;

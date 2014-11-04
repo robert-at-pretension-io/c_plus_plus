@@ -12,7 +12,7 @@ cout << x << ", ";
 }
 }
 
-main(){
+int main(){
 copy_fct();
 return 0;
 }

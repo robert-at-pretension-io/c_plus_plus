@@ -12,10 +12,11 @@ if (*p==x) ++count;
 cout << "The character '" << x << "' occurs " << count << " times in the array: ";
 for(;length>0;--length,--p){ cout << p << ",";}
 cout << "\n" << p << "\n";
+return 1;
 }
 
 
-main(){
+int main(){
 char v[] = {'a','a','a','b','c','d','e',0}; //v is a vector
 
 for (auto x : v){
@@ -34,5 +35,5 @@ if (*p==x){++count; cout << "count is now: "<< count << "\n";}
 
 //cout << "The character '" << x << "' occurs " << count << " times in the array: \n";
 count_x(p,x);
-
+return 0;
 }

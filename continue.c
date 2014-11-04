@@ -18,8 +18,9 @@ default:
 std::cout << "You entered: " << answer << "\nPlease enter y or n\n";
 }
 }
+return 'f';
 }
-main(){
+int main(){
 accept();
 return 0;
 }

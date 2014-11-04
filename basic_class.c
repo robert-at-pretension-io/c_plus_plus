@@ -8,7 +8,7 @@ Generic(int g) :grd{g} { if (g > 60) { letr = 'p'; } else { letr = 'f'; }}
 char print() {return letr;}
 };
 
-main (){
+int main (){
 Generic passing = Generic(61);
 Generic failing = Generic(60);
 cout << "The letter of the failing grade is: " << failing.print() << "\n";
